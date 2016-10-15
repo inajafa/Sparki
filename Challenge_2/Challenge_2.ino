@@ -1,6 +1,6 @@
 #include <Sparki.h>
 void setup() {
-int = x;
+int x;
 x=7;
 
 }
