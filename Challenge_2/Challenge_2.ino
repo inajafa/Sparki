@@ -1,9 +1,15 @@
+#include <Sparki.h>
 void setup() {
-  // put your setup code here, to run once:
+int = x;
+x=7;
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+sparki.clearLCD();
+sparki.print("x");
+sparki.println("x*10");
+
+
 
 }
