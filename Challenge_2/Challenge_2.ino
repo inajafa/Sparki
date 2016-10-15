@@ -1,11 +1,12 @@
 #include <Sparki.h>
 void setup() {
-int x;
-x=7;
+
 
 }
 
 void loop() {
+int x;
+x=7;
 sparki.clearLCD();
 sparki.print(x);
 sparki.println(x*10);
