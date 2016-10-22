@@ -9,7 +9,7 @@ void setup() {
 void loop() {
 sparki.clearLCD();
     for (int x = 0; x < 11; x++){
-    for (int y = x+1; y < 12; y++){
+    for (int y = 0; y < 12; y++){
 
         sparki.updateLCD();
         sparki.println(x);
