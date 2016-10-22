@@ -11,12 +11,11 @@ sparki.clearLCD();
     for (int x = 0; x < 10; x++){
       for (int y = 0; y < 9; y++){
         
-    
-        sparki.println(x);
+        //sparki.print("\n");
+        sparki.println(DEC);
         sparki.print("\n");
-        
-        delay(500);
         sparki.updateLCD();
+        delay(500);
     }
   }
 }
