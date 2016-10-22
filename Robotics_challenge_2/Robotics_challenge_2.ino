@@ -5,7 +5,7 @@ void setup() {
 }
 
 void loop() {
-sparki.moveForward(90);
-delay(3000);
+sparki.moveRight(90);
+delay(2000);
 
 }
