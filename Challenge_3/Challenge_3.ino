@@ -12,6 +12,7 @@ sparki.clearLCD();
     for (int y = x+1; y < 12; y++){
       
         sparki.println(x);
+        sparki.clearLCD();
         sparki.updateLCD();
         sparki.println(y);
         //sparki.println(y);
