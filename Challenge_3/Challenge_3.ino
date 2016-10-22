@@ -10,10 +10,11 @@ void loop() {
 sparki.clearLCD();
     for (int x = 0; x < 11; x++){
     for (int y = x+1; y < 12; y++){
-      
+
+        sparki.updateLCD();
         sparki.println(x);
         sparki.clearLCD();
-        sparki.updateLCD();
+        //sparki.updateLCD();
         sparki.println(y);
         //sparki.println(y);
         //sparki.updateLCD();
