@@ -9,12 +9,13 @@ void setup() {
 void loop() {
 sparki.clearLCD();
     for (int x = 0; x < 11; x++){
-    for (int y = 0; y < 12; y++){
+    //for (int y = 0; y < 12; y++){
 
-        sparki.println(x);
+        
         sparki.updateLCD();
-        //sparki.println(x);
+        sparki.println(x);
         sparki.clearLCD();
+         for (int y = 0; y < 12; y++){
         //sparki.updateLCD();
         sparki.println("\n");
         sparki.println(y);
