@@ -15,6 +15,7 @@ sparki.clearLCD();
         sparki.println(x);
         sparki.clearLCD();
         //sparki.updateLCD();
+        sparki.println("\n");
         sparki.println(y);
         //sparki.println(y);
         //sparki.updateLCD();
