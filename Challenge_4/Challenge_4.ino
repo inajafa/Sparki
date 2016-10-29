@@ -11,6 +11,7 @@ int x;
       sparki.clearLCD();
       sparki.println("\n");
       sparki.println(x*x);
+      sparki.println("\n");
       sparki.updateLCD();
       delay(500);
     }
