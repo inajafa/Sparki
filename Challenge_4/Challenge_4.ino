@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
 int x;
-  for (int x = 0; x < 10; x++)
+  for (int x = 0; x < 11; x++)
     {
       sparki.clearLCD();
       sparki.println(x*x);
