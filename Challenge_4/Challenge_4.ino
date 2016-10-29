@@ -10,6 +10,8 @@ int x;
     {
       sparki.clearLCD()l
       sparki.println(x*x);
+      sparki.updateLCD();
+      delay(500);
     }
 
 }
